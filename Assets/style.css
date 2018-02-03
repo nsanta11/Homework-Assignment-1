@@ -119,6 +119,11 @@
       padding-left: 25px;
     }
 
+    .text-block {
+      float:left;
+      margin: 20px;
+    }
+
     a:link    {
       /* Applies to all unvisited links */
       text-decoration: none;
@@ -231,11 +236,6 @@
   text-align: center;
   border: 2px solid;
   border-color: rgb(201, 196, 196);
-}
-
-.text-block {
-  float:left;
-  margin: 20px;
 }
   
 h4 {
