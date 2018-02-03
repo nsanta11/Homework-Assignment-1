@@ -119,13 +119,26 @@
       padding-left: 25px;
     }
 
+    a:link    {
+      /* Applies to all unvisited links */
+      text-decoration: none;
+      color: gray;
+    }
+
+    a:visited {
+      /* Applies to all visited links */
+      text-decoration:  none;
+      color:black;
+      }
+
   #topright {
       position: fixed;
       float: left;
       text-align: center;
+      text decoration: none;
       left: 780px;
       margin-top: 50px;
-      width: 270px;
+      width: 280px;
       height: 35px;
       background-color: #ffffff;
       color:#777777;
